@@ -1,3 +1,4 @@
+import { toDataURL } from 'qrcode'
 import { Merchant } from 'steplix-emv-qrcps'
 
 const createPixCode = (
@@ -37,4 +38,9 @@ const createPixCode = (
   return emvqr.generatePayload()
 }
 
-export { createPixCode }
+const createQrCode = (
+  data: string,
+  size: { width: number; height: number } = { width: 200, height: 200 }
+) => toDataURL(data, size).then((qrcode) => qrcode)
+
+export { createPixCode, createQrCode }
