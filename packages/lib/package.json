@@ -3,8 +3,21 @@
   "version": "1.0.0",
   "description": "A library to create a pix (Brasilian money transfer system) qr-code",
   "main": "dist/index.js",
+  "files": [
+    "dist/*.js",
+    "dist/**/*.js"
+  ],
   "scripts": {
-    "test": "echo \"Test done\""
+    "test": "echo \"Test done\"",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.33",
+    "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "qrcode": "^1.5.0",
+    "steplix-emv-qrcps": "^0.0.8"
   },
   "repository": {
     "type": "git",
