@@ -1,12 +1,12 @@
 {
   "name": "@pix-qrcode/lib",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A library to create a pix (Brasilian money transfer system) qr-code",
   "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "types": "dist/typings/index.d.ts",
   "files": [
-    "dist/*.js",
-    "dist/**/*.js"
+    "dist",
+    "src"
   ],
   "scripts": {
     "test": "echo \"Test done\"",
