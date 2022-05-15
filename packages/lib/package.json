@@ -1,0 +1,19 @@
+{
+  "name": "@pix-qrcode/lib",
+  "version": "1.0.0",
+  "description": "A library to create a pix (Brasilian money transfer system) qr-code",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Test done\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henriquekirchheck/pix-qrcode.git"
+  },
+  "author": "Henrique Kirch Heck",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/henriquekirchheck/pix-qrcode/issues"
+  },
+  "homepage": "https://github.com/henriquekirchheck/pix-qrcode#readme"
+}

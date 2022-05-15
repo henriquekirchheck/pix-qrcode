@@ -1,0 +1,16 @@
+{
+  "name": "@pix-qrcode/monorepo",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [ "packages/*" ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henriquekirchheck/pix-qrcode.git"
+  },
+  "author": "Henrique Kirch Heck",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/henriquekirchheck/pix-qrcode/issues"
+  },
+  "homepage": "https://github.com/henriquekirchheck/pix-qrcode#readme"
+}
